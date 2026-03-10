@@ -9,6 +9,8 @@ This is a Bank Management System built using Python and MySQL.
 - Deposit Money
 - Withdraw Money
 - Search Account
+- Check Balance
+- Display All Accounts
 - Delete Account
 - Transaction History
 
