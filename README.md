@@ -16,16 +16,16 @@ This is a Bank Management System built using Python and MySQL.
 
 ## Project Structure
 
-main.py - Main program
-bank_operations.py - All bank functions
-database.py - Database connection
-database.sql - Database table structure
-requirements.txt - Dependencies
+main.py              # Main program
+bank_operations.py   # All bank functions
+database.py          # Database connection
+database.sql         # Database tables
+requirements.txt     # Project dependencies
 
 ## Technologies Used
 
-Python  
-MySQL
+- Python
+- MySQL
 
 ## How to Run
 
