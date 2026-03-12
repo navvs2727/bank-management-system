@@ -14,6 +14,14 @@ This is a Bank Management System built using Python and MySQL.
 - Delete Account
 - Transaction History
 
+## Project Structure
+
+main.py - Main program
+bank_operations.py - All bank functions
+database.py - Database connection
+database.sql - Database table structure
+requirements.txt - Dependencies
+
 ## Technologies Used
 
 Python  
