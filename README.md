@@ -22,11 +22,11 @@ This is a Bank Management System built using Python and MySQL. It allows users t
 
 ## Project Structure
 
-- main.py              # Main program
-- bank_operations.py   # All bank functions
-- database.py          # Database connection
-- database.sql         # Database tables
-- requirements.txt     # Project dependencies
+- main.py                    -> Main program
+- bank_operations.py         -> All bank functions
+- database.py                -> Database connection
+- database.sql               -> Database tables
+- requirements.txt           -> Project dependencies
 
 ## Installation and Setup
 
