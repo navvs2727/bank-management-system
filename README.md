@@ -54,15 +54,19 @@ CREATE TABLE users(
 username VARCHAR(20),
 password VARCHAR(20)
 );
----
--- Default admin login
-INSERT INTO users VALUES("admin27","admin@27");
 
+- Default admin login
+INSERT INTO users VALUES("admin27","admin@27");
+---
+
+**Default Login**
+
+- Username: admin27
+- Password: admin@27
 
 **Run the Project**
 
 - python main.py
-
 
 
 **Example Menu**
