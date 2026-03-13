@@ -34,8 +34,8 @@ This is a Bank Management System built using Python and MySQL.
 3. Create database using database.sql
 4. Install dependencies
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 5. Run the project
 
-python main.py
+  python main.py
