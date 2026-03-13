@@ -1,6 +1,6 @@
 # Bank Management System (Python + MySQL)
 
-This is a Bank Management System built using Python and MySQL.
+This is a Bank Management System built using Python and MySQL. It allows users to create accounts, deposit and withdraw money, view account details, and manage transactions using a database.
 
 ## Features
 
