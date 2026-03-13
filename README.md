@@ -33,7 +33,7 @@ This is a Bank Management System built using Python and MySQL.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/bank-management-system.git
+git clone https://github.com/navvs2727/bank-management-system.git
 ```
 
 ### 2. Move to project folder
