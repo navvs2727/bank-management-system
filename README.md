@@ -14,6 +14,12 @@ This is a Bank Management System built using Python and MySQL.
 - Delete Account
 - Transaction History
 
+## Technologies Used
+
+- Python
+- MySQL
+
+
 ## Project Structure
 
 - main.py              # Main program
@@ -22,20 +28,61 @@ This is a Bank Management System built using Python and MySQL.
 - database.sql         # Database tables
 - requirements.txt     # Project dependencies
 
-## Technologies Used
+### Setup MySQL Database
 
-- Python
-- MySQL
+**Create database and table:**
 
-## How to Run
+--- sql
+CREATE DATABASE bankdb;
 
-1. Install Python
-2. Install MySQL
-3. Create database using database.sql
-4. Install dependencies
+USE bankdb;
 
-  pip install -r requirements.txt
+CREATE TABLE accounts(
+acc_no VARCHAR(20) PRIMARY KEY,
+name VARCHAR(50),
+balance INT
+);
 
-5. Run the project
+CREATE TABLE transactions(
+id INT AUTO_INCREMENT PRIMARY KEY,
+acc_no VARCHAR(20),
+type VARCHAR(20),
+amount INT
+);
 
-  python main.py
+CREATE TABLE users(
+username VARCHAR(20),
+password VARCHAR(20)
+);
+---
+-- Default admin login
+INSERT INTO users VALUES("admin27","admin@27");
+
+
+**Run the Project**
+
+- python main.py
+
+
+
+**Example Menu**
+
+Bank Management System
+
+- Login System
+- Create Account
+- Deposit Money
+- Withdraw Money
+- Search Account
+- Check Balance
+- Display All Accounts
+- Delete Account
+- Transaction History
+- Exit
+
+**Author**
+
+- **Navneet Singh**
+
+- **Python Developer**
+
