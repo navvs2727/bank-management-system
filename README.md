@@ -28,11 +28,32 @@ This is a Bank Management System built using Python and MySQL.
 - database.sql         # Database tables
 - requirements.txt     # Project dependencies
 
-### Setup MySQL Database
+## Installation and Setup
 
-**Create database and table:**
+### 1. Clone the repository
 
---- sql
+```bash
+git clone https://github.com/your-username/bank-management-system.git
+```
+
+### 2. Move to project folder
+
+```bash
+cd Bank-Management-System
+```
+
+### 3. Install required libraries
+
+```bash
+pip install mysql-connector-python
+```
+
+
+### 4. Setup MySQL Database
+
+Create database and tables:
+
+```sql
 CREATE DATABASE bankdb;
 
 USE bankdb;
@@ -55,19 +76,19 @@ username VARCHAR(20),
 password VARCHAR(20)
 );
 
-- Default admin login
 INSERT INTO users VALUES("admin27","admin@27");
----
+```
 
 **Default Login**
 
 - Username: admin27
 - Password: admin@27
 
-**Run the Project**
+### 5. Run the project
 
-- python main.py
-
+```bash
+python main.py
+```
 
 **Example Menu**
 
